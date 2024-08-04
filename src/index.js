@@ -13,11 +13,3 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>,
 );
-
-module.exports = {
-  // other configurations...
-  plugins: [
-    // other plugins...
-    '@babel/plugin-proposal-private-property-in-object'
-  ]
-};
